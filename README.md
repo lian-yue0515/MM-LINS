@@ -49,7 +49,7 @@ catkin_make
     # terminal 2: run SC-PGO
     cd ~/catkin_ws/src/MM-LINS/SC-PGO
     source devel/setup.bash
-    roslaunch aloam_velodyne xxx.launch 
+    roslaunch aloam_velodyne fastlio_ouster64.launch
 
     # open the other terminal tab: run rosbag
     rosbag play xxx.bag
