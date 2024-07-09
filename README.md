@@ -68,6 +68,21 @@ Download our test bags here: Indoor [Baidu](https://pan.baidu.com/s/1wUiKRWQqie2
 ### 5. Example results 
 
 
+### Citation
+If you use PIN-SLAM for any academic work, please cite our original [paper](https://ieeexplore.ieee.org/document/10557776)
+```
+  @ARTICLE{mm-lins,
+    author={Ma, Yongxin and Xu, Jie and Yuan, Shenghai and Zhi, Tian and Yu, Wenlu and Zhou, Jun and Xie, Lihua},
+    journal={IEEE Transactions on Intelligent Vehicles},
+    title={MM-LINS: a Multi-Map LiDAR-Inertial System for Over-Degenerate Environments}, 
+    year={2024},
+    volume={},
+    number={},
+    pages={1-11},
+    keywords={Simultaneous localization and mapping;Laser radar;Trajectory;Accuracy;Vehicle dynamics;Intelligent vehicles;Sensor phenomena and characterization;Multi-map;over-degenerate;pose graph optimization;simultaneous location and mapping},
+    doi={10.1109/TIV.2024.3414852}
+  }
+```
 
 ### Acknowledgements 
 - Thanks for [FAST_LIO](https://github.com/hku-mars/FAST_LIO).
