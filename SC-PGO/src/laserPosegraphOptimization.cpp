@@ -67,7 +67,7 @@ using namespace gtsam;
 using std::cout;
 using std::endl;
 int SKIP_similar = 1;
-int count = 0;
+int cnt = 0;
 double keyframeMeterGap;
 double keyframeDegGap, keyframeRadGap;
 double translationAccumulated = 1000000.0; 
@@ -1008,7 +1008,7 @@ void process_pg()
 
                 if (!isNowKeyFrame)
                     continue;
-                count++;
+                cnt++;
                 pcl::PointCloud<PointType>::Ptr thisKeyFrameDS(new pcl::PointCloud<PointType>());
                 downSizeFilterScancontext.setInputCloud(thisKeyFrame);
                 downSizeFilterScancontext.filter(*thisKeyFrameDS);
@@ -1060,7 +1060,7 @@ void process_pg()
                         cout << "\033[33m" << "posegraph odom node " << (curr_node_idx) << " added." << endl;
                 }
                 performSCLoopClosure();
-                if(count % SKIP_similar == 0){
+                if(cnt % SKIP_similar == 0){
                     performSimilarClosure();
                 }
                 mgtSAMgraphMade.lock();
