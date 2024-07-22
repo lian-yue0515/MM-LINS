@@ -69,7 +69,7 @@ Download our test bags here: Indoor [Baidu](https://pan.baidu.com/s/1wUiKRWQqie2
 
 
 ### Citation
-If you use PIN-SLAM for any academic work, please cite our original [paper](https://ieeexplore.ieee.org/document/10557776)
+If you use MM-LINS for any academic work, please cite our original [paper](https://ieeexplore.ieee.org/document/10557776)
 ```
   @ARTICLE{mm-lins,
     author={Ma, Yongxin and Xu, Jie and Yuan, Shenghai and Zhi, Tian and Yu, Wenlu and Zhou, Jun and Xie, Lihua},
