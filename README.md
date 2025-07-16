@@ -81,17 +81,18 @@ Download our test bags here: Indoor [Baidu](https://pan.baidu.com/s/1wUiKRWQqie2
 ### Citation
 If you use MM-LINS for any academic work, please cite our original [paper](https://ieeexplore.ieee.org/document/10557776)
 ```
-  @ARTICLE{mm-lins,
+  @ARTICLE{10557776,
     author={Ma, Yongxin and Xu, Jie and Yuan, Shenghai and Zhi, Tian and Yu, Wenlu and Zhou, Jun and Xie, Lihua},
-    journal={IEEE Transactions on Intelligent Vehicles},
-    title={MM-LINS: a Multi-Map LiDAR-Inertial System for Over-Degenerate Environments}, 
-    year={2024},
-    volume={},
-    number={},
-    pages={1-11},
+    journal={IEEE Transactions on Intelligent Vehicles}, 
+    title={MM-LINS: A Multi-Map LiDAR-Inertial System for Over-Degenerate Environments}, 
+    year={2025},
+    volume={10},
+    number={1},
+    pages={472-482},
     keywords={Simultaneous localization and mapping;Laser radar;Trajectory;Accuracy;Vehicle dynamics;Intelligent vehicles;Sensor phenomena and characterization;Multi-map;over-degenerate;pose graph optimization;simultaneous location and mapping},
     doi={10.1109/TIV.2024.3414852}
-  }
+}
+
 ```
 
 ### Acknowledgements 
